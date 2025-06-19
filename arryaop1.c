@@ -21,7 +21,7 @@ int main()
         case 2:
             flag = 0;
             printf("enter a number for search:");
-            scabf("%d", &key);
+            scanf("%d", &key);
             for (i = 0; i < n; i++)
             {
                 if (key == a[i])
@@ -43,7 +43,7 @@ int main()
             if (pos < 0 || pos > n)
             {
                 printf("invalid position !!");
-                break;
+                continue;
             }
             for (i = n; i > pos; i--)
             {
@@ -84,7 +84,6 @@ int main()
                 printf("no is not present in array");
             else
                 printf("number count=%d", count);
-            return 0;
             break;
 
         case 6:
