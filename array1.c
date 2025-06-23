@@ -1,3 +1,4 @@
+//total numbers are sum//
 #include <stdio.h>
 int main()
 {

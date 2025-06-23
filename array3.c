@@ -1,3 +1,4 @@
+//min number of arrya
 #include <stdio.h>
 int main()
 {

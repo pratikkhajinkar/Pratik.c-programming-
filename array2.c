@@ -1,3 +1,4 @@
+//max number of array
 #include<stdio.h>
 int main()
 {

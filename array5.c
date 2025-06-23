@@ -1,3 +1,4 @@
+//second max number of array
 #include <stdio.h>
 #include <limits.h>
 int main()
